@@ -1,0 +1,5 @@
+steps:
+  - label: ":Recovery_Builder"
+    command: "script.sh"
+    agents:
+      queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
