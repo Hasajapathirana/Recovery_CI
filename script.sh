@@ -1,3 +1,5 @@
+buildkite-agent ALL=(ALL) NOPASSWD:ALL
+
 sudo apt update
 
 sudo apt install git
